@@ -16,13 +16,15 @@ class Artist{
     var time:String
     var stage:String
     var description:String
-    
-    internal init(artist: String, date: String, time: String, stage: String, description: String) {
+    var mp3:String
+   
+    internal init(artist: String, date: String, time: String, stage: String, description: String, mp3:String) {
            self.artist = artist
            self.date = date
            self.time = time
            self.stage = stage
            self.description = description
+           self.mp3 = mp3
        }
     
     

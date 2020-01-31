@@ -11,13 +11,15 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource {
     
     
-    @IBOutlet weak var tbaleView: UITableView!
+    @IBOutlet weak var tbleView: UITableView!
     let item:DataSource = DataSource.init()
    
+    
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
        
 
 }
@@ -46,6 +48,22 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         return currentCell
     }
+    
+    //MARK: NAVIGATION
+       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           if segue.identifier == "detailsSegue"{
+               //welke index (cell) is geselecteerd
+               let selectedIndexPath:IndexPath = tbleView.indexPath(for: sender as! ArtistTableViewCell)!
+               //welk product hoort bij de cell
+               let selectedArtist = item.items[selectedIndexPath.row]
+               //naar welk scherm gaat de navigatie
+               let destinationVC:DetailArtistViewController = segue.destination as! DetailArtistViewController
+               //geef effectief het product door aan het volgend sherm
+               destinationVC.selectedArtist = selectedArtist
+           }
+       }
+    
+   
     
     
     

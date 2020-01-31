@@ -13,11 +13,21 @@
 		79612D4E23E187AB006E5AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79612D4C23E187AB006E5AC0 /* Main.storyboard */; };
 		79612D5023E187AF006E5AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79612D4F23E187AF006E5AC0 /* Assets.xcassets */; };
 		79612D5323E187AF006E5AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79612D5123E187AF006E5AC0 /* LaunchScreen.storyboard */; };
-		79612D5B23E18CB2006E5AC0 /* Niewpoort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79612D5A23E18CB2006E5AC0 /* Niewpoort.jpg */; };
-		79612D5D23E18E63006E5AC0 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79612D5C23E18E63006E5AC0 /* logo.jpg */; };
 		79612D6023E19F7B006E5AC0 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79612D5F23E19F7B006E5AC0 /* Artist.swift */; };
 		7977793823E1D051006B6C59 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7977793723E1D051006B6C59 /* DataSource.swift */; };
 		7977793C23E1DD30006B6C59 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7977793B23E1DD30006B6C59 /* ArtistTableViewCell.swift */; };
+		797A3CE423E2CE3C000950E2 /* PointOfImportance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797A3CE323E2CE3C000950E2 /* PointOfImportance.swift */; };
+		797A3CE623E2CED1000950E2 /* DataSourceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797A3CE523E2CED1000950E2 /* DataSourceNavigation.swift */; };
+		797A3CE823E2CF83000950E2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797A3CE723E2CF83000950E2 /* MapViewController.swift */; };
+		797A3CEA23E2EB5B000950E2 /* DetailArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797A3CE923E2EB5B000950E2 /* DetailArtistViewController.swift */; };
+		79D97DF023E4672A00D36D12 /* PursuitOfVikings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79D97DEF23E4672A00D36D12 /* PursuitOfVikings.mp3 */; };
+		79D97E0123E46C1500D36D12 /* Unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D97E0023E46C1500D36D12 /* Unknown.jpg */; };
+		79D97E0323E46D2000D36D12 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D97E0223E46D2000D36D12 /* images.jpg */; };
+		79D97E0923E46EA700D36D12 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D97E0423E46EA700D36D12 /* logo.jpg */; };
+		79D97E0A23E46EA700D36D12 /* festival1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D97E0523E46EA700D36D12 /* festival1.jpg */; };
+		79D97E0B23E46EA700D36D12 /* Niewpoort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D97E0623E46EA700D36D12 /* Niewpoort.jpg */; };
+		79D97E0C23E46EA700D36D12 /* festival2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D97E0723E46EA700D36D12 /* festival2.jpg */; };
+		79D97E0D23E46EA700D36D12 /* festival3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D97E0823E46EA700D36D12 /* festival3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +39,21 @@
 		79612D4F23E187AF006E5AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79612D5223E187AF006E5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79612D5423E187AF006E5AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79612D5A23E18CB2006E5AC0 /* Niewpoort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Niewpoort.jpg; path = ../../../../../../Documents/Niewpoort.jpg; sourceTree = "<group>"; };
-		79612D5C23E18E63006E5AC0 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../../../../../../Documents/logo.jpg; sourceTree = "<group>"; };
 		79612D5F23E19F7B006E5AC0 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		7977793723E1D051006B6C59 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		7977793B23E1DD30006B6C59 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		797A3CE323E2CE3C000950E2 /* PointOfImportance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfImportance.swift; sourceTree = "<group>"; };
+		797A3CE523E2CED1000950E2 /* DataSourceNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceNavigation.swift; sourceTree = "<group>"; };
+		797A3CE723E2CF83000950E2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		797A3CE923E2EB5B000950E2 /* DetailArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailArtistViewController.swift; sourceTree = "<group>"; };
+		79D97DEF23E4672A00D36D12 /* PursuitOfVikings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PursuitOfVikings.mp3; path = FestivalNieuwpoort/PursuitOfVikings.mp3; sourceTree = SOURCE_ROOT; };
+		79D97E0023E46C1500D36D12 /* Unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown.jpg; path = FestivalNieuwpoort/Unknown.jpg; sourceTree = SOURCE_ROOT; };
+		79D97E0223E46D2000D36D12 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = FestivalNieuwpoort/images.jpg; sourceTree = SOURCE_ROOT; };
+		79D97E0423E46EA700D36D12 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = FestivalNieuwpoort/logo.jpg; sourceTree = SOURCE_ROOT; };
+		79D97E0523E46EA700D36D12 /* festival1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festival1.jpg; path = FestivalNieuwpoort/festival1.jpg; sourceTree = SOURCE_ROOT; };
+		79D97E0623E46EA700D36D12 /* Niewpoort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Niewpoort.jpg; path = FestivalNieuwpoort/Niewpoort.jpg; sourceTree = SOURCE_ROOT; };
+		79D97E0723E46EA700D36D12 /* festival2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festival2.jpg; path = FestivalNieuwpoort/festival2.jpg; sourceTree = SOURCE_ROOT; };
+		79D97E0823E46EA700D36D12 /* festival3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festival3.jpg; path = FestivalNieuwpoort/festival3.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +86,14 @@
 		79612D4523E187AB006E5AC0 /* FestivalNieuwpoort */ = {
 			isa = PBXGroup;
 			children = (
+				79D97DEC23E4585000D36D12 /* music */,
+				79D97DE923E455F400D36D12 /* foto */,
 				79612D6123E1A137006E5AC0 /* Controllers */,
 				79612D5E23E19F66006E5AC0 /* model */,
-				79612D5C23E18E63006E5AC0 /* logo.jpg */,
-				79612D5A23E18CB2006E5AC0 /* Niewpoort.jpg */,
+				797A3CEB23E32D98000950E2 /* view */,
 				79612D4623E187AB006E5AC0 /* AppDelegate.swift */,
 				79612D4823E187AB006E5AC0 /* SceneDelegate.swift */,
-				79612D4C23E187AB006E5AC0 /* Main.storyboard */,
 				79612D4F23E187AF006E5AC0 /* Assets.xcassets */,
-				79612D5123E187AF006E5AC0 /* LaunchScreen.storyboard */,
 				79612D5423E187AF006E5AC0 /* Info.plist */,
 			);
 			path = FestivalNieuwpoort;
@@ -85,6 +104,8 @@
 			children = (
 				79612D5F23E19F7B006E5AC0 /* Artist.swift */,
 				7977793723E1D051006B6C59 /* DataSource.swift */,
+				797A3CE323E2CE3C000950E2 /* PointOfImportance.swift */,
+				797A3CE523E2CED1000950E2 /* DataSourceNavigation.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -94,8 +115,41 @@
 			children = (
 				79612D4A23E187AB006E5AC0 /* ViewController.swift */,
 				7977793B23E1DD30006B6C59 /* ArtistTableViewCell.swift */,
+				797A3CE723E2CF83000950E2 /* MapViewController.swift */,
+				797A3CE923E2EB5B000950E2 /* DetailArtistViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		797A3CEB23E32D98000950E2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				79612D4C23E187AB006E5AC0 /* Main.storyboard */,
+				79612D5123E187AF006E5AC0 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		79D97DE923E455F400D36D12 /* foto */ = {
+			isa = PBXGroup;
+			children = (
+				79D97E0523E46EA700D36D12 /* festival1.jpg */,
+				79D97E0723E46EA700D36D12 /* festival2.jpg */,
+				79D97E0823E46EA700D36D12 /* festival3.jpg */,
+				79D97E0423E46EA700D36D12 /* logo.jpg */,
+				79D97E0623E46EA700D36D12 /* Niewpoort.jpg */,
+				79D97E0223E46D2000D36D12 /* images.jpg */,
+				79D97E0023E46C1500D36D12 /* Unknown.jpg */,
+			);
+			path = foto;
+			sourceTree = "<group>";
+		};
+		79D97DEC23E4585000D36D12 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				79D97DEF23E4672A00D36D12 /* PursuitOfVikings.mp3 */,
+			);
+			path = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +210,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D97E0C23E46EA700D36D12 /* festival2.jpg in Resources */,
+				79D97DF023E4672A00D36D12 /* PursuitOfVikings.mp3 in Resources */,
+				79D97E0D23E46EA700D36D12 /* festival3.jpg in Resources */,
+				79D97E0123E46C1500D36D12 /* Unknown.jpg in Resources */,
 				79612D5323E187AF006E5AC0 /* LaunchScreen.storyboard in Resources */,
-				79612D5D23E18E63006E5AC0 /* logo.jpg in Resources */,
+				79D97E0A23E46EA700D36D12 /* festival1.jpg in Resources */,
 				79612D5023E187AF006E5AC0 /* Assets.xcassets in Resources */,
+				79D97E0923E46EA700D36D12 /* logo.jpg in Resources */,
 				79612D4E23E187AB006E5AC0 /* Main.storyboard in Resources */,
-				79612D5B23E18CB2006E5AC0 /* Niewpoort.jpg in Resources */,
+				79D97E0B23E46EA700D36D12 /* Niewpoort.jpg in Resources */,
+				79D97E0323E46D2000D36D12 /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797A3CE623E2CED1000950E2 /* DataSourceNavigation.swift in Sources */,
+				797A3CE423E2CE3C000950E2 /* PointOfImportance.swift in Sources */,
 				79612D4B23E187AB006E5AC0 /* ViewController.swift in Sources */,
 				79612D4723E187AB006E5AC0 /* AppDelegate.swift in Sources */,
+				797A3CEA23E2EB5B000950E2 /* DetailArtistViewController.swift in Sources */,
+				797A3CE823E2CF83000950E2 /* MapViewController.swift in Sources */,
 				79612D6023E19F7B006E5AC0 /* Artist.swift in Sources */,
 				7977793823E1D051006B6C59 /* DataSource.swift in Sources */,
 				7977793C23E1DD30006B6C59 /* ArtistTableViewCell.swift in Sources */,
